@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const jersey_15_Charted = Jersey_15_Charted({
+const jersey_Charted = Jersey_15_Charted({
   variable: '--font-jersey-15-charted',
   weight: "400",
   subsets: ['latin']
@@ -35,7 +35,7 @@ export default function RootLayout({
       <link href="https://fonts.cdnfonts.com/css/beyonders" rel="stylesheet" />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${jersey_15_Charted.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${jersey_Charted.variable} antialiased`}
       >
         {children}
       </body>
