@@ -14,7 +14,7 @@ export default function Home() {
           />
           <h1 className="text-center font-medium text-6xl px-3 py-2 -rotate-3 font-[family-name:var(--font-jersey-15-charted)] border-red-600 text-[#F96764] uppercase"><span className="opacity-0">h</span>{" "}Agents of Akash{" "}<span className="opacity-0">h</span></h1>
         </div>
-        {/* TODO: Add Discord invite link later */}
+        {/* TODO: Add Discord invite link later when community is ready to start */}
         <a
           className="flex items-center gap-2 bg-[#5865F2] px-4 py-2 rounded-lg hover:opacity-95 font-sans text-base font-semibold"
           href="#"
